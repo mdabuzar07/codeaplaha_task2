@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px;
+    max-width: 80vw;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.gallery img {
+    width: 100%; 
+    height: auto; 
+    border: 2px solid rgb(204, 149, 149);
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 400ms, filter 400ms; 
+}
+
+.gallery img:hover {
+    filter: brightness(0.5); 
+    transform: scale(1.05);
+}
+
+.discrip {
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(117, 91, 91);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery-container">
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img1.jpeg">
+                <img src="C:\Users\dell\Downloads\New folder\img1.jpeg" alt="Image 1">
+            </a>
+            <div class="discrip">Coding img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img2.png">
+                <img src="C:\Users\dell\Downloads\New folder\img2.png" alt="Image 2">
+            </a>
+            <div class="discrip">Coding img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img3.jpg">
+                <img src="C:\Users\dell\Downloads\New folder\img3.jpg" alt="Image 3">
+            </a>
+            <div class="discrip">Coding img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img4.jpeg">
+                <img src="C:\Users\dell\Downloads\New folder\img4.jpeg" alt="Image 4">
+            </a>
+            <div class="discrip">Nature img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img5.jpeg">
+                <img src="C:\Users\dell\Downloads\New folder\img5.jpeg" alt="Image 5">
+            </a>
+            <div class="discrip">Nature img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img6.png">
+                <img src="C:\Users\dell\Downloads\New folder\img6.png" alt="Image 6">
+            </a>
+            <div class="discrip">CSS img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img7.jpg">
+                <img src="C:\Users\dell\Downloads\New folder\img7.jpg" alt="Image 7">
+            </a>
+            <div class="discrip">HTML img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img8.png">
+                <img src="C:\Users\dell\Downloads\New folder\img8.png" alt="Image 8">
+            </a>
+            <div class="discrip">JavaScript img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img9.jpeg">
+                <img src="C:\Users\dell\Downloads\New folder\img9.jpeg" alt="Image 9">
+            </a>
+            <div class="discrip">World img</div>
+        </div>
+        <div class="gallery">
+            <a href="C:\Users\dell\Downloads\New folder\img10.jpeg">
+                <img src="C:\Users\dell\Downloads\New folder\img10.jpeg" alt="Image 10">
+            </a>
+            <div class="discrip">Education img</div>
+        </div>
+    </div>
+</body>
+</html>
